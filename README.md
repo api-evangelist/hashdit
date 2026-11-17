@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HashDit is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.hashdit.io/
+HashDit provides Web3 security tools and APIs that protect users from crypto scams. Their platform offers token scanning, address classification, domain security, and transaction analysis across multiple chains. Designed for wallets, dApps, and security products, HashDit enables real‑time risk assessment and automated protection for blockchain interactions.
+
+**Areas:** Crypto Security · Scam Protection · Token Scanner · Web3 Tools · API · Monitoring Platform
+
+## HashDit on APIs.io
+
+Everything profiled for HashDit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hashdit/](https://apis.io/providers/hashdit/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [HashDit Address Intelligence API](https://apis.io/apis/hashdit/hashdit-address-intelligence-api/) — The Address Intelligence API from HashDit — 3 operation(s) for address intelligence.
+- [HashDit Domain Security API](https://apis.io/apis/hashdit/hashdit-domain-security-api/) — The Domain Security API from HashDit — 1 operation(s) for domain security.
+- [HashDit Signature Security API](https://apis.io/apis/hashdit/hashdit-signature-security-api/) — The Signature Security API from HashDit — 1 operation(s) for signature security.
+- [HashDit Simulation API](https://apis.io/apis/hashdit/hashdit-simulation-api/) — The Simulation API from HashDit — 1 operation(s) for simulation.
+- [HashDit Token Security API](https://apis.io/apis/hashdit/hashdit-token-security-api/) — The Token Security API from HashDit — 3 operation(s) for token security.
+- [HashDit Transaction Security API](https://apis.io/apis/hashdit/hashdit-transaction-security-api/) — The Transaction Security API from HashDit — 1 operation(s) for transaction security.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [HashDit Agentic Access](https://apis.io/agentic-access/hashdit/hashdit-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AddressClassifyRequest](https://apis.io/schemas/hashdit/hashdit-address-classify-request/)
+- [AddressPoisoningBatchRequest](https://apis.io/schemas/hashdit/hashdit-address-poisoning-batch-request/)
+- [AddressPoisoningSingleRequest](https://apis.io/schemas/hashdit/hashdit-address-poisoning-single-request/)
+- [AddressSecurityV2Request](https://apis.io/schemas/hashdit/hashdit-address-security-v2-request/)
+- [DomainSecurityRequest](https://apis.io/schemas/hashdit/hashdit-domain-security-request/)
+- [TokenApprovalSecurityRequest](https://apis.io/schemas/hashdit/hashdit-token-approval-security-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hashdit Context](https://apis.io/jsonld/hashdit/hashdit-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HashDit API Rules](https://apis.io/rules/hashdit/hashdit-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [HashDit Authentication](https://apis.io/security/hashdit/hashdit-authentication/)
+- [HashDit Domain Security](https://apis.io/security/hashdit/hashdit-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hashdit.io/)
+- [Documentation](https://docs.hashdit.io/)
+- [Getting started](https://docs.hashdit.io/blog/2024-05-15/2024-05-15)
+- [API reference](https://docs.hashdit.io/api-reference/endpoint/token-security)
+- [Support](https://www.hashdit.io/contact-us)
+- [Blog](https://docs.hashdit.io/blog)
+- [GitHub](https://github.com/hashdit)
+
+## API Evangelist rating
+
+**Kin Score 45.4** — developing · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 45.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hashdit/](https://apis.io/providers/hashdit/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HashDit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hashdit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
